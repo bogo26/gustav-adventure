@@ -1,0 +1,26 @@
+.button{
+	height: 40px;
+	width: 40px;
+	border: solid 1px red;
+	margin: 10px;
+	float: left;
+}
+
+#map{
+	float: left;
+}
+
+.elem{
+	height: 35px;
+	width: 35px;
+	float: left;
+	text-align: center;
+}
+
+#stats{
+	height: 105px;
+	width: 135px;
+	float: right;
+	border: solid 1px blue;
+	margin: 10px;
+}

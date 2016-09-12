@@ -1,0 +1,26 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="stats">
+		<span id="points">score: 0</span><br>
+		<span >level:</span>
+		<input id="level" type="number" min="1" max="10" value="1" onchange="setLevel()"><br>
+		<span id="moves">moves: 0</span><br>
+		<span id="lifes">lifes: 3</span><br>
+	</div>
+	<div class="button" onclick="rainStop();">Stop</div>
+	<div class="button" id="up" onclick="goUp()">up</div>
+	<div class="button" onclick="start()">Start</div>
+	</br></br></br></br>
+	<div class="button" id="left"  onclick="goLeft()">left</div>
+	<div class="button" id="down"  onclick="goDown()">down</div>
+	<div class="button" id="right"  onclick="goRight()">right</div>
+	
+	<div id ="map"></div>
+</body>
+
+	<script src="script.js"></script>
+</html>
